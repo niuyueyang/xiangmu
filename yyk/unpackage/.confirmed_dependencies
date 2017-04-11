@@ -1,0 +1,43 @@
+{
+	"index.html": {
+		"resources": [
+			"css/index.css",
+			"img/banner.png",
+			"img/logo.png",
+			"img/foot3.png",
+			"img/bottom2.png",
+			"img/dh.png",
+			"img/foot2.png",
+			"img/foot1.png",
+			"img/bottom3.png",
+			"img/bottom1.png",
+			"img/bg.png",
+			"img/we.png",
+			"js/new_file.js",
+			"qzkf.html"
+		],
+		"refer": [
+			"qzkf.html"
+		]
+	},
+	"qzkf.html": {
+		"resources": [
+			"img/tb.png",
+			"css/qzkf.css",
+			"js/jquery.min.js",
+			"img/qzzw1.png",
+			"img/qzkf-banner.png",
+			"img/qzzw2.png",
+			"img/qzzw5.png",
+			"img/qzzw7.png",
+			"img/qzzw3.png",
+			"img/sb.png",
+			"img/qzzw4.png",
+			"img/qzzw6.png",
+			"img/qzzw8.png",
+			"js/jquery.smoove.js",
+			"img/button1.png",
+			"js/index.js"
+		]
+	}
+}

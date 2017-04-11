@@ -1,0 +1,1294 @@
+/*
+* @Author: Administrator
+* @Date:   2017-04-07 17:32:54
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-04-10 09:07:29
+*/
+*{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-appearance: none;
+	-webkit-text-size-adjust:100%;
+	-webkit-user-select:none;
+	-webkit-overflow-scrolling: touch;
+	/* -webkit-transform: translate3d(0, 0, 0);transform: translate3d(0, 0, 0); */
+	max-height:9999999px;
+	-webkit-text-size-adjust:none;
+	-webkit-overflow-scrolling:touch; overflow-scrolling: touch;
+}
+*{
+	text-decoration: none;
+}
+
+
+
+
+.nav{
+	width: 100%;
+	height: 1rem;
+	background: #007BE3;
+	position: fixed;
+	z-index: 100;
+}
+.nav .nav1{
+	font-size: .3rem;
+	color: #fff;
+	float: left;
+	line-height: 1rem;
+	padding: 0 5.9%;
+	box-sizing: border-box;
+}
+.nav a{
+	color: #fff;
+}
+
+
+.banner{
+	width: 100%;
+	height: 5rem;
+	background: red;
+}
+.banner .a{
+	width: 100%;
+	height: 5rem;
+}
+.banner .banner1{
+	display: block;
+	width: 30%;
+	position: relative;
+	top: -1.2rem;
+	left: 2.6rem;
+}
+.banner .a1{
+	width: 30%;
+	font-size: .2rem;
+	position: relative;
+	top: -1.7rem;
+	left: 3.2rem;
+	color: #fff;
+}
+
+.as1{
+	width: 100%;
+	height: 1.4rem;
+	box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.5);
+}
+.as1 .z1{
+	display: block;
+	width: 10%;
+	float: left;
+	margin-top: .5rem;
+	margin-left: 25%;
+}
+.as1 .z2{
+	display: block;
+	width: 15%;
+	float: left;
+	margin-left: -.4rem;
+	margin-top: .3rem;
+}
+.as1 .z3{
+	float: left;
+	margin-left: -.4rem;
+	margin-top: .6rem;
+	font-size: .35rem;
+}
+.as1 .z4{
+	display: block;
+	width: 15%;
+	float: left;
+	margin-left: -.8rem;
+	margin-top: 1.1rem;
+}
+
+
+
+.a01{
+	width: 100%;
+}
+.a01 .d{
+	width: 90%;
+	margin: 0 auto;
+	border: 1px solid #5FCFB7;
+	border-top: none;
+}
+.a01 .d .d1{
+	width: 94%;
+	margin: 0 auto;
+}
+.a01 .d .d1 .d2{
+	font-size: .2rem;
+	padding: .4rem 0 0 0;
+}
+.a01 .d .d1 .d3{
+	font-size: .2rem;
+	padding: .4rem 0 .4rem 0;
+}
+
+
+.as2{
+	width: 100%;
+	height: 1.4rem;
+	box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.5);
+}
+.as2 .z1{
+	display: block;
+	width: 10%;
+	float: left;
+	margin-top: .5rem;
+	margin-left: 25%;
+}
+.as2 .z2{
+	display: block;
+	width: 15%;
+	float: left;
+	margin-left: -.4rem;
+	margin-top: .3rem;
+}
+.as2 .z3{
+	float: left;
+	margin-left: -.4rem;
+	margin-top: .6rem;
+	font-size: .35rem;
+}
+.as2 .z4{
+	display: block;
+	width: 15%;
+	float: left;
+	margin-left: -.8rem;
+	margin-top: 1.1rem;
+}
+
+
+
+.mo{
+	width: 100%;
+	height: 6.5rem;	
+}
+.mo .a3 .aa1{
+	width: 30%;
+	float: left;
+	margin-left: .2rem;
+	position: relative;
+}
+.mo .a3 .aa1 img{
+	width: 100%;
+	display: block;
+	margin-top: .4rem;
+}
+.mo .a3 .aa1 p{
+	font-size: .3rem;
+	color: #fff;
+	position: absolute;
+	top: .7rem;
+	left: .8rem;
+}
+.mo .a3 .sa1{
+	width: 30%;
+	height: 1.5rem;
+	float: left;
+	margin-left: .2rem;
+	box-sizing: border-box;
+	margin-top: .1rem;
+	border: 1px dashed #F2A111;
+}
+
+.mo .a3 .sa1 p{
+	font-size: .25rem;
+	color: #000;
+	text-align: center;
+	margin-top: .1rem;
+}
+
+.mo .a3 .sa2{
+	width: 30%;
+	height: 1.5rem;
+	float: left;
+	margin-left: .2rem;
+	box-sizing: border-box;
+	margin-top: .1rem;
+	border: 1px dashed #2F90DA;
+}
+.mo .a3 .sa2 p{
+	font-size: .25rem;
+	color: #000;
+	text-align: center;
+	margin-top: .1rem;
+}
+.mo .a3 .sa3{
+	width: 30%;
+	height: 1.5rem;
+	float: left;
+	margin-left: .2rem;
+	box-sizing: border-box;
+	margin-top: .1rem;
+	border: 1px dashed #F87844;
+}
+.mo .a3 .sa3 p{
+	font-size: .25rem;
+	color: #000;
+	text-align: center;
+	margin-top: .1rem;
+}
+.mo .a3 .s1{
+	width: 30%;
+	height: 1.5rem;
+	float: left;
+	margin-left: .2rem;
+	box-sizing: border-box;
+	margin-top: .1rem;
+	border: 1px dashed #1BBF99;
+}
+
+.mo .a3 .s1 p{
+	font-size: .25rem;
+	color: #000;
+	text-align: center;
+	margin-top: .1rem;
+}
+
+.mo .a3 .s2{
+	width: 30%;
+	height: 1.5rem;
+	float: left;
+	margin-left: .2rem;
+	box-sizing: border-box;
+	margin-top: .1rem;
+	border: 1px dashed #F8CE68;
+}
+.mo .a3 .s2 p{
+	font-size: .25rem;
+	color: #000;
+	text-align: center;
+	margin-top: .1rem;
+}
+.mo .a3 .s3{
+	width: 30%;
+	height: 1.5rem;
+	float: left;
+	margin-left: .2rem;
+	box-sizing: border-box;
+	margin-top: .1rem;
+	border: 1px dashed #C16BBB;
+}
+.mo .a3 .s3 p{
+	font-size: .25rem;
+	color: #000;
+	text-align: center;
+	margin-top: .1rem;
+}
+
+
+
+
+.as3{
+	width: 100%;
+	height: 1.4rem;
+	box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.5);
+}
+.as3 .z1{
+	display: block;
+	width: 10%;
+	float: left;
+	margin-top: .5rem;
+	margin-left: 25%;
+}
+.as3 .z2{
+	display: block;
+	width: 15%;
+	float: left;
+	margin-left: -.4rem;
+	margin-top: .3rem;
+}
+.as3 .z3{
+	float: left;
+	margin-left: -.4rem;
+	margin-top: .6rem;
+	font-size: .35rem;
+}
+.as3 .z4{
+	display: block;
+	width: 15%;
+	float: left;
+	margin-left: -.8rem;
+	margin-top: 1.1rem;
+}
+
+
+
+.shu{
+	width: 100%;
+	height: 9rem;
+	background: #1B1D32;
+}
+.shu .shu1{
+	width: 55%;
+	margin: 0 auto;
+	font-size: .35rem;
+	color: #00C298;
+	text-align: center;
+	padding-top: .5rem;
+}
+.shu .shu2{
+	width: 60%;
+	height: .1rem;
+	margin: 0 auto;
+	border-top: 1px solid #fff;
+	border-bottom: 1px dashed #fff;
+}
+.shu .shu3{
+	width: 100%;
+	height: 7rem;
+	margin-top: .8rem;
+}
+.shu .shu3 .left{
+	width: 45%;
+	height: 5rem;
+	border: 1px solid #fff;
+	margin-left: 3.3%;
+	float: left;
+}
+.shu .shu3 .left .a{
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: .3rem;
+	color: #fff;
+	margin-top: .3rem;
+
+}
+.shu .shu3 .left img{
+	width: 100%;
+	margin-top: .2rem;
+	border-bottom: 1px solid #fff;
+}
+.shu .shu3 .left .a2{
+	width: 90%;
+	color: #fff;
+	margin: 0 auto;
+	font-size: .3rem;
+	text-align: center;
+}
+.shu .shu3 .right{
+	width: 45%;
+	height: 5rem;
+	border: 1px solid #fff;
+	margin-left: 3.3%;
+	float: left;
+}
+.shu .shu3 .right .a{
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: .3rem;
+	color: #fff;
+	margin-top: .3rem;
+
+}
+.shu .shu3 .right img{
+	width: 100%;
+	margin-top: .2rem;
+	border-bottom: 1px solid #fff;
+}
+.shu .shu3 .right .a2{
+	width: 90%;
+	margin: 0 auto;
+	color: #fff;
+	font-size: .3rem;
+	text-align: center;
+}
+.sa{
+	width: 100%;
+	/* position: absolute; */
+}
+.sa img{
+	display: block;
+	width: 45%;
+	margin: 0 auto;
+	margin-top: -1.4rem;
+}
+.sa .s1{
+	width: 40%;
+	font-size: .4rem;
+	color: #fff;
+	position: relative;
+	top: -.75rem;
+	left: 2.7rem;
+}
+
+
+
+
+.as4{
+	width: 100%;
+	height: 1.4rem;
+	box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.5);
+}
+.as4 .z1{
+	display: block;
+	width: 10%;
+	float: left;
+	margin-top: .5rem;
+	margin-left: 25%;
+}
+.as4 .z2{
+	display: block;
+	width: 15%;
+	float: left;
+	margin-left: -.4rem;
+	margin-top: .3rem;
+}
+.as4 .z3{
+	float: left;
+	margin-left: -.4rem;
+	margin-top: .6rem;
+	font-size: .35rem;
+}
+.as4 .z4{
+	display: block;
+	width: 15%;
+	float: left;
+	margin-left: -.8rem;
+	margin-top: 1.1rem;
+}
+
+
+
+
+.xinxi{
+	width: 100%;
+	margin-top: -1rem;
+}
+.xinxi .you1{
+	width: 90%;
+	height: 4.8rem;
+	margin: 0 auto;
+	border: 1px solid blue;
+	margin-top: 2rem;
+	border-top: 0;
+	border-radius: .15rem .15rem 0 0;
+}
+.xinxi .you1 .a5{
+	width: 100%;
+	height: .8rem;
+}
+.xinxi .you1 .a5 .a2{
+	width: 20%;
+	height: .8rem;
+	float: left;
+	background: #40ABFD;
+	border-radius: .15rem .15rem 0 0;
+	color: #fff;
+	font-size: .25rem;
+	text-align: center;
+	line-height: .8rem;
+}
+.xinxi .you1 .a5 .a3{
+	width: 30%;
+	height: .8rem;
+	float: left;
+	background: #219EFF;
+	border-radius: .15rem .15rem 0 0;
+	color: #fff;
+	font-size: .25rem;
+	text-align: center;
+	line-height: .8rem;
+}
+.xinxi .you1 .a5 .a4{
+	width: 50%;
+	height: .8rem;
+	float: left;
+	background: #118DED;
+	border-radius: .15rem .15rem 0 0;
+	color: #fff;
+	font-size: .25rem;
+	text-align: center;
+	line-height: .8rem;
+}
+
+.xinxi .you1 .a1{
+	width: 100%;
+	height: .8rem;
+}
+.xinxi .you1 .a1 .a2{
+	width: 20%;
+	height: .8rem;
+	float: left;
+
+	color: #000;
+	font-size: .25rem;
+	text-align: center;
+	line-height: .8rem;
+}
+.xinxi .you1 .a1 .a3{
+	width: 30%;
+	height: .8rem;
+	float: left;
+
+	color: #FBC87A;
+	font-size: .25rem;
+	text-align: center;
+	line-height: .8rem;
+}
+.xinxi .you1 .a1 .a4{
+	width: 50%;
+	height: .8rem;
+	float: left;
+
+	color: #000;
+	font-size: .25rem;
+	text-align: center;
+	line-height: .8rem;
+}
+.xinxi .you1 .b1{
+	background: #EEEEEE;
+}
+
+
+
+.saa{
+	width: 100%;
+	position: absolute;
+}
+.saa img{
+	display: block;
+	width: 45%;
+	margin: 0 auto;
+	margin-top: .4rem;
+}
+.saa .s1{
+	width: 40%;
+	font-size: .4rem;
+	color: #fff;
+	position: relative;
+	top: -.75rem;
+	left: 2.7rem;
+}
+
+
+
+.as5{
+	width: 100%;
+	height: 1.4rem;
+	box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.5);
+	margin-top: 1.5rem;
+}
+.as5 .z1{
+	display: block;
+	width: 10%;
+	float: left;
+	margin-top: .5rem;
+	margin-left: 25%;
+}
+.as5 .z2{
+	display: block;
+	width: 15%;
+	float: left;
+	margin-left: -.4rem;
+	margin-top: .3rem;
+}
+.as5 .z3{
+	float: left;
+	margin-left: -.4rem;
+	margin-top: .6rem;
+	font-size: .35rem;
+}
+.as5 .z4{
+	display: block;
+	width: 15%;
+	float: left;
+	margin-left: -.8rem;
+	margin-top: 1.1rem;
+}
+
+
+
+
+.gui{
+	width: 100%;
+	height: 10rem;
+	background: #1B1D32;
+}
+
+.gui .left{
+	width: 20%;
+	height: 10rem;
+	float: left;
+	position: absolute;
+}
+.gui .left .h{
+	width: 2px;
+	height: 7.5rem;
+	float: left;
+	background: #B29510;
+	position: relative;
+	left: .6rem;
+	top: 1rem;
+}
+.gui .left .da1{
+	width: .6rem;
+	height: .6rem;
+	background: #1B1D32;
+	border: 1px solid #FFD300;
+	font-size: .4rem;
+	text-align: center;
+	line-height: .6rem;
+	color: #fff;
+	position: relative;
+	top: .8rem;
+	left: .3rem;
+}
+.gui .left .da2{
+	width: .6rem;
+	height: .6rem;
+	background: #1B1D32;
+	border: 1px solid #D9524D;
+	font-size: .4rem;
+	text-align: center;
+	line-height: .6rem;
+	color: #fff;
+	position: relative;
+	top: 1.5rem;
+	left: .3rem;
+}
+.gui .left .da3{
+	width: .6rem;
+	height: .6rem;
+	background: #1B1D32;
+	border: 1px solid #87BF7F;
+	font-size: .4rem;
+	text-align: center;
+	line-height: .6rem;
+	color: #fff;
+	position: relative;
+	top: 2.5rem;
+	left: .3rem;
+}
+.gui .left .da4{
+	width: .6rem;
+	height: .6rem;
+	background: #1B1D32;
+	border: 1px solid #1E9DD2;
+	font-size: .4rem;
+	text-align: center;
+	line-height: .6rem;
+	color: #fff;
+	position: relative;
+	top: 3.6rem;
+	left: .3rem;
+}
+.gui .left .da5{
+	width: .6rem;
+	height: .6rem;
+	background: #1B1D32;
+	border: 1px solid #F6CE64;
+	font-size: .4rem;
+	text-align: center;
+	line-height: .6rem;
+	color: #fff;
+	position: relative;
+	top: 4.3rem;
+	left: .3rem;
+}
+.gui .left .da6{
+	width: .6rem;
+	height: .6rem;
+	background: #1B1D32;
+	border: 1px solid #A569A8;
+	font-size: .4rem;
+	text-align: center;
+	line-height: .6rem;
+	color: #fff;
+	position: relative;
+	top: 5rem;
+	left: .3rem;
+}
+
+.gui .right{
+	width: 83%;
+	height: 10rem;
+	float: right;
+}
+.gui .right .sd1{
+	width: 90%;
+}
+.gui .right .sd1 .a1{
+	width: 100%;
+	margin: 0 auto;
+	font-size: .2rem;
+	color: #FFD300;
+	margin-top: .8rem;
+	border-bottom: 1px dashed #FFD300;
+	padding-bottom: .1rem;
+}
+.gui .right .sd1 .a2{
+	font-size: .2rem;
+	color: #fff;
+}
+.gui .right .sd2{
+	width: 90%;
+}
+.gui .right .sd2 .a1{
+	width: 100%;
+	margin: 0 auto;
+	font-size: .2rem;
+	color: #D9524D;
+	margin-top: .3rem;
+	border-bottom: 1px dashed #D9524D;
+	padding-bottom: .1rem;
+}
+.gui .right .sd2 .a2{
+	font-size: .2rem;
+	color: #fff;
+}
+.gui .right .sd3{
+	width: 90%;
+}
+.gui .right .sd3 .a1{
+	width: 100%;
+	margin: 0 auto;
+	font-size: .2rem;
+	color: #87BF7F;
+	margin-top: .3rem;
+	border-bottom: 1px dashed #87BF7F;
+	padding-bottom: .1rem;
+}
+.gui .right .sd3 .a2{
+	font-size: .2rem;
+	color: #fff;
+}
+.gui .right .sd4{
+	width: 90%;
+}
+.gui .right .sd4 .a1{
+	width: 100%;
+	margin: 0 auto;
+	font-size: .2rem;
+	color: #1E9DD2;
+	margin-top: .3rem;
+	border-bottom: 1px dashed #1E9DD2;
+	padding-bottom: .1rem;
+}
+.gui .right .sd4 .a2{
+	font-size: .2rem;
+	color: #fff;
+}
+.gui .right .sd5{
+	width: 90%;
+}
+.gui .right .sd5 .a1{
+	width: 100%;
+	margin: 0 auto;
+	font-size: .2rem;
+	color: #F6CE64;
+	margin-top: .3rem;
+	border-bottom: 1px dashed #F6CE64;
+	padding-bottom: .1rem;
+}
+.gui .right .sd5 .a2{
+	font-size: .2rem;
+	color: #fff;
+}
+.gui .right .sd6{
+	width: 90%;
+}
+.gui .right .sd6 .a1{
+	width: 100%;
+	margin: 0 auto;
+	font-size: .2rem;
+	color: #F6CE64;
+	margin-top: .3rem;
+	border-bottom: 1px dashed #F6CE64;
+	padding-bottom: .1rem;
+}
+.gui .right .sd6 .a2{
+	font-size: .2rem;
+	color: #fff;
+}
+
+
+
+
+.as6{
+	width: 100%;
+	height: 1.4rem;
+	box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.5);
+	margin-top: 0rem;
+}
+.as6 .z1{
+	display: block;
+	width: 10%;
+	float: left;
+	margin-top: .5rem;
+	margin-left: 25%;
+}
+.as6 .z2{
+	display: block;
+	width: 15%;
+	float: left;
+	margin-left: -.4rem;
+	margin-top: .3rem;
+}
+.as6 .z3{
+	float: left;
+	margin-left: -.4rem;
+	margin-top: .6rem;
+	font-size: .35rem;
+}
+.as6 .z4{
+	display: block;
+	width: 15%;
+	float: left;
+	margin-left: -.8rem;
+	margin-top: 1.1rem;
+}
+
+
+.jiu{
+	width: 100%;
+	height: 5.5rem;
+	background: #F5F6FA;
+}
+.jiu .b1{
+	position: absolute;
+}
+.jiu .b1 .a1{
+	width: 35%;
+	display: block;
+	padding-top:.6rem;
+	margin-left: 1rem; 
+}
+.jiu .b1 .a2{
+	width: 30%;
+	font-size: .2rem;
+	position: relative;
+	top: -.55rem;
+	left: 1.7rem;
+}
+.jiu .b2{
+	position: absolute;
+}
+.jiu .b2 .a1{
+	width: 30%;
+	display: block;
+	padding-top:.6rem;
+	margin-left: 4rem; 
+}
+.jiu .b2 .a2{
+	width: 30%;
+	font-size: .2rem;
+	position: relative;
+	top: -.55rem;
+	left: 4.7rem;
+}
+.jiu .b3{
+	position: absolute;
+}
+.jiu .b3 .a1{
+	width: 30%;
+	display: block;
+	padding-top: 1.6rem;
+	margin-left: 2.4rem; 
+}
+.jiu .b3 .a2{
+	width: 30%;
+	font-size: .2rem;
+	position: relative;
+	top: -.55rem;
+	left: 3.15rem;
+}
+.jiu .b4{
+	position: absolute;
+}
+.jiu .b4 .a1{
+	width: 40%;
+	display: block;
+	padding-top: 2.6rem;
+	margin-left: 1rem; 
+}
+.jiu .b4 .a2{
+	width: 30%;
+	font-size: .2rem;
+	position: relative;
+	top: -.6rem;
+	left: 1.8rem;
+}
+.jiu .b5{
+	position: absolute;
+}
+.jiu .b5 .a1{
+	width: 30%;
+	display: block;
+	padding-top: 2.6rem;
+	margin-left: 4rem; 
+}
+.jiu .b5 .a2{
+	width: 30%;
+	font-size: .2rem;
+	position: relative;
+	top: -.55rem;
+	left: 4.7rem;
+}
+.jiu .b6{
+	position: absolute;
+}
+.jiu .b6 .a1{
+	width: 36%;
+	display: block;
+	padding-top: 3.6rem;
+	margin-left: 2.4rem; 
+}
+.jiu .b6 .a2{
+	width: 30%;
+	font-size: .2rem;
+	position: relative;
+	top: -.6rem;
+	left: 3.15rem;
+}
+
+
+
+
+.as7{
+	width: 100%;
+	height: 1.4rem;
+	box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.5);
+	margin-top: 0rem;
+}
+.as7 .z1{
+	display: block;
+	width: 10%;
+	float: left;
+	margin-top: .5rem;
+	margin-left: 25%;
+}
+.as7 .z2{
+	display: block;
+	width: 15%;
+	float: left;
+	margin-left: -.4rem;
+	margin-top: .3rem;
+}
+.as7 .z3{
+	float: left;
+	margin-left: -.4rem;
+	margin-top: .6rem;
+	font-size: .35rem;
+}
+.as7 .z4{
+	display: block;
+	width: 15%;
+	float: left;
+	margin-left: -.8rem;
+	margin-top: 1.1rem;
+}
+
+
+.wo{
+	width: 100%;
+	height: 6rem;
+	background: #1B1D32;
+	position: absolute;
+}
+.wo .a1{
+	width: 70%;
+	height: 3rem;
+	margin: 0 auto;
+	border: 1px solid #9A8215;
+	border-left: none;
+	position: relative;
+	top: 1rem;
+}
+.wo .a1 .a2{
+	width: 80%;
+	margin: 0 auto;
+	font-size: .3rem;
+	color: #fff;
+	border-bottom: 1px dashed #9A8215;
+	padding-top: .16rem;
+	padding-left: .8rem;
+}
+.wo .a1 .a3{
+	border-bottom: none;
+}
+.wo .d1 img{
+	width: 25%;
+	display: block;
+	margin-top: -2.2rem;
+}
+.saf{
+	width: 100%;
+	position: absolute;
+}
+.saf img{
+	display: block;
+	width: 40%;
+	margin: 0 auto;
+	margin-top: .4rem;
+}
+.saf .s1{
+	width: 40%;
+	font-size: .4rem;
+	color: #fff;
+	position: relative;
+	top: -.7rem;
+	left: 2.8rem;
+}
+
+
+
+
+.as8{
+	width: 100%;
+	height: 1.4rem;
+	box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.5);
+	margin-top: 6rem;
+}
+.as8 .z1{
+	display: block;
+	width: 10%;
+	float: left;
+	margin-top: .5rem;
+	margin-left: 15%;
+}
+.as8 .z2{
+	display: block;
+	width: 15%;
+	float: left;
+	margin-left: -.4rem;
+	margin-top: .3rem;
+}
+.as8 .z3{
+	float: left;
+	margin-left: -.4rem;
+	margin-top: .6rem;
+	font-size: .35rem;
+}
+.as8 .z4{
+	display: block;
+	width: 15%;
+	float: left;
+	margin-left: -.8rem;
+	margin-top: 1.1rem;
+}
+
+
+.v{
+	width: 100%;
+	font-size: .35rem;
+	text-align: center;
+	margin-top: .5rem;
+}
+.ad{
+	width: 100%;
+	height: 1rem;
+}
+.ad .ad1{
+	width: 20%;
+	font-size: .4rem;
+	margin-top: .2rem;
+	float: left;
+	color: #333333;
+	margin-left: 15%;
+}
+.ad .ad2{
+	width: 50%;
+	height: .5rem;
+	border: 1px solid #9FF0FD;
+	float: left;
+	margin-top: .3rem;
+	border-radius: .3rem;
+	font-size: .3rem;
+	outline: none;
+}
+.ad3{
+	width: 100%;
+	height: 1rem;
+}
+.ad3 .ad1{
+	width: 20%;
+	font-size: .4rem;
+	margin-top: .2rem;
+	float: left;
+	color: #333333;
+	margin-left: 15%;
+}
+.ad3 .ad2{
+	width: 50%;
+	height: .5rem;
+	border: 1px solid #9FF0FD;
+	float: left;
+	margin-top: .3rem;
+	border-radius: .3rem;
+	font-size: .3rem;
+	outline: none;
+}
+.ad4{
+	width: 100%;
+	height: 1rem;
+}
+.ad4 .ad1{
+	width: 20%;
+	font-size: .4rem;
+	margin-top: .2rem;
+	float: left;
+	color: #333333;
+	margin-left: 15%;
+}
+.ad4 .ad2{
+	width: 50%;
+	height: .5rem;
+	border: 1px solid #9FF0FD;
+	float: left;
+	margin-top: .3rem;
+	border-radius: .3rem;
+	font-size: .3rem;
+	outline: none;
+}
+.ad5{
+	width: 100%;
+	height: 1rem;
+}
+.ad5 .ad1{
+	width: 20%;
+	font-size: .4rem;
+	margin-top: .2rem;
+	float: left;
+	color: #333333;
+	margin-left: 15%;
+}
+.ad5 .ad2{
+	width: 50%;
+	height: .5rem;
+	border: 1px solid #9FF0FD;
+	float: left;
+	margin-top: .3rem;
+	border-radius: .3rem;
+	font-size: .3rem;
+	outline: none;
+}
+
+
+
+.asd1{
+	width: 100%;
+}
+.asd1 img{
+	display: block;
+	margin: 0 auto;
+	width: 40%;
+	margin-top: .5rem;
+}
+.asd1 p{
+	width: 40%;
+	font-size: .4rem;
+	color: #fff;
+	position: relative;
+	top: -.7rem;
+	left: 3.3rem;
+	padding-right: 0;
+}
+.wei{
+	width: 100%;
+	text-align: center;
+	font-size: .25rem;
+}
+.aaaa{
+	width: 100%;
+	height: 1rem;
+}
+
+.w{
+	width: 100%;
+	height: 1rem;
+	background: #E7E7E7;
+	position: fixed;
+	bottom: 0;
+}
+.w .w1 i{
+	float: left;
+	margin-left: .5rem;
+	font-size: .2rem;
+}
+.w .w1{
+	width: 30%;
+	float: left;
+	box-sizing: border-box;
+	font-size: .2rem;
+	line-height: 1rem;
+	text-align: center;
+}
+.w .w1 p{
+	float: left;
+	margin-left: .2rem;
+}
+.w .w2{
+	width: 40%;
+	height: 1rem;
+	background: #FF8D12;
+	font-size: .2rem;
+	line-height: 1rem;
+	text-align: center;
+	border-radius: 5px;
+	margin-top: -.1rem;
+	color: #fff;
+	box-shadow: 0px 0px 8px #FF8D12; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

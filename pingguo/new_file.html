@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <style>
+            *{margin: 0;padding: 0;}
+            ul,li{margin: 0;padding: 0;list-style: none;}
+            
+            .detail{
+                width: 100%;
+            }
+            .detail ul{
+                width: 100%;
+                padding: 5px;
+                overflow: hidden;
+            }
+            .detail ul li{                
+                float: left;
+                width: 50%;
+            }
+            .detail ul li a{
+                display: block;
+                width: 100%;
+            }
+            .detail ul li .imgBox{
+                width: 100%;
+                height: 0;
+                padding-bottom: 60%;
+                overflow: hidden;
+                position: relative;
+            }
+            .detail ul li .imgBox img{
+                display: block;
+                width: 100%;
+                height: 100%;
+                position: absolute;
+            }
+            
+            
+            .aBox{
+                display: block;
+                width: 300px;
+                height: 300px;
+                position: relative;
+                background-color: #ccc;
+            }
+            .aSmall{
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100px;
+                height: 50px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="detail">
+            <ul>
+                <li>
+                    <a href="">
+                        <div class="imgBox">
+                            <img src="http://images.cnblogs.com/cnblogs_com/shoestrong/866556/o_see.jpg" alt="" />
+                        </div>
+                        <div class="textBox">
+                            这是文字信息
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <div class="imgBox">
+                            <img src="http://images.cnblogs.com/cnblogs_com/shoestrong/866556/o_see.jpg" alt="" />
+                        </div>
+                        <div class="textBox">
+                            这是文字信息
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </body>
+
+</html>

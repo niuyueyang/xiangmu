@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>First</title>
+    </head>
+　　<!--
+            作者：1107530849@qq.com
+            时间：2014-06-24
+            描述：注意此处body标签是没有的(noframes才显示)
+        -->    
+        <frameset rows="10%,90%">
+            <frame src="Top.html" name="top"/>
+            <frameset cols="15%,*">
+                    <frame src="Home.html" name="home"/>
+                        <frame src="index1.html" name="index1"/>
+                        
+            </frameset>
+        
+            <noframes>
+                <body>
+                你的浏览器不支持frame
+                </body>
+            </noframes>
+            
+        </frameset>
+    </html>

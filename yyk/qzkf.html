@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<meta name="screen-orientation" content="portrait">
+		<meta name="x5-orientation" content="portrait | landscape" />
+		<meta name="x5-fullscreen" content="true" />
+		<meta name="full-screen" content="yes">
+		<meta name="format-detection" content="telephone=no, email=no" />
+		<link href="css/qzkf.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<title>全栈开发</title>
+		<script>
+			$(function() {
+				//t=setTimeout("show()",1000);
+				t = setInterval("show()", 2000)
+				$("#table1").mouseover(function() {
+						//alert($("#table1 tr:first").children("td:first").text());
+						//$("#table1 tr:first").appendTo($(this));
+						clearInterval(t);
+						//window.clearInterval(this.int)   
+					}).mouseout(function() {
+						t = setInterval("show()", 1000);
+						//window.setInterval('scroll2()',1000)
+					})
+					//window.setInterval('scroll2()',1000)
+			})
+
+			function show() {
+				$("#table1 tr:first").appendTo($("#table1"));
+				//alert('aaaa');
+				//$("#table1 tr:first").appendTo($("#table1"));
+				//$("#table1 tr:first").remove();
+
+			}
+		</script>
+	</head>
+
+	<body>
+		<!--
+        	作者：3223891963@qq.com
+        	时间：2017-04-07
+        	描述：title
+        -->
+		<header>
+			<div class="db" id="header0">
+				<div class="header0">
+					<span><a href="#">首页</a></span>
+					<span><a href="#">师资</a></span>
+					<span><a href="#">学员</a></span>
+					<span><a href="#">资讯</a></span>
+					<span><a href="#">问题</a></span>
+				</div>
+			</div>
+			<div class="head" id="header">
+				<div class="header">
+					<span><a href="#">首页</a></span>
+					<span><a href="#">师资</a></span>
+					<span><a href="#">学员</a></span>
+					<span><a href="#">资讯</a></span>
+					<span><a href="#">问题</a></span>
+				</div>
+			</div>
+		</header>
+		<!--
+        	作者：3223891963@qq.com
+        	时间：2017-04-07
+        	描述：banner
+        -->
+		<div class="banner">
+			<img src="img/qzkf-banner.png">
+		</div>
+		<!--
+        	作者：3223891963@qq.com
+        	时间：2017-04-07
+        	描述：内容区域1
+        -->
+		<div class="content1">
+			<div><span>全栈开发</span><span>是什么</span></div>
+			<div class="xian">
+				<div class="lan"></div>
+			</div>
+			<div>WHAT IS THE FULL STACK DEVELOPMENT</div>
+			<div class="yuan1"></div>
+			<div class="yuan2"></div>
+			<div class="yuan3"></div>
+			<div class="yuan4"></div>
+		</div>
+		<!--
+        	作者：3223891963@qq.com
+        	时间：2017-04-07
+        	描述：文字
+        -->
+		<div class="content2">
+			<div class="content2-yidong">
+				<span>Web全栈开发指开发一个Web应用需具备的</span>
+				<span>各项技能于一身的新型技术人才。Web全栈工程师需要</span>
+				<span>具备的技能包括：前端标记语言(HTML、CSS)</span>
+				<span>前端编程语言(JavaScript)、服务器端编程语言(比如Nodejs)</span>
+				<span>数据库(比如Mongodb)等。这些环节互相联系，缺一不可</span>
+				<span>互联网公司的命脉在于产品 </span>
+				<span>产品的成功与否依赖于生产周期、可延展性和可维护性</span>
+				<span>这已是行业内的共识</span>
+				<span>所以全栈工程师应运而生，成为职业新宠</span>
+			</div>
+		</div>
+		<!--
+        	作者：3223891963@qq.com
+        	时间：2017-04-07
+        	描述：内容区域3（水波）
+        -->
+		<div class="shuibo">
+			<img src="img/sb.png">
+		</div>
+		<!--
+        	作者：3223891963@qq.com
+        	时间：2017-04-07
+        	描述：内容区域4
+        -->
+		<div class="content1">
+			<div><span>六大服务体系</span><span>全程无忧</span></div>
+			<div class="xian">
+				<div class="lan"></div>
+			</div>
+			<div>SIX SERVICES</div>
+			<div class="yuan1-1"></div>
+			<div class="yuan2-1"></div>
+			<div class="yuan3-1"></div>
+			<div class="yuan4-1"></div>
+		</div>
+		<!--
+        	作者：3223891963@qq.com
+        	时间：2017-04-07
+        	描述：内容区域5
+        -->
+		<div class="content5">
+			<div class="zhengfangxing block" data-move-x="-5rem" data-rotate="180deg">
+				<div>零元入学</div>
+				<div>先入学</div>
+				<div>就业后再付款</div>
+				<div class="yuan1-2"></div>
+				<div class="yuan2-2"></div>
+				<div class="yuan3-2"></div>
+				<div class="yuan4-2"></div>
+			</div>
+			<div class="zhengfangxing block" data-move-x="2rem" data-rotate="-45deg">
+				<div>免费试听</div>
+				<div>免费试学</div>
+				<div>先体验后报名</div>
+				<div class="yuan1-2"></div>
+				<div class="yuan2-2"></div>
+				<div class="yuan3-2"></div>
+				<div class="yuan4-2"></div>
+			</div>
+			<div class="zhengfangxing block" data-move-x="2rem" data-rotate="135deg">
+				<div>就业推荐</div>
+				<div>终生推荐</div>
+				<div>让你高枕无忧</div>
+				<div class="yuan1-2"></div>
+				<div class="yuan2-2"></div>
+				<div class="yuan3-2"></div>
+				<div class="yuan4-2"></div>
+			</div>
+			<div class="zhengfangxing block" data-rotate-y="180deg" data-move-z="-2rem" data-move-x="-3rem">
+				<div>课程迭代</div>
+				<div>课程升级</div>
+				<div>让您"快人一步"</div>
+				<div class="yuan1-2"></div>
+				<div class="yuan2-2"></div>
+				<div class="yuan3-2"></div>
+				<div class="yuan4-2"></div>
+			</div>
+			<div class="zhengfangxing block" data-rotate-y="270deg" data-move-x="-150%">
+				<div>免费体验</div>
+				<div>一切为了学生</div>
+				<div>让您安心学习</div>
+				<div class="yuan1-2"></div>
+				<div class="yuan2-2"></div>
+				<div class="yuan3-2"></div>
+				<div class="yuan4-2"></div>
+			</div>
+			<div class="zhengfangxing block" data-scale="0.2" data-skew="90deg,90deg">
+				<div>高薪就业</div>
+				<div>你离年薪20万</div>
+				<div>只有"一步之遥"</div>
+				<div class="yuan1-2"></div>
+				<div class="yuan2-2"></div>
+				<div class="yuan3-2"></div>
+				<div class="yuan4-2"></div>
+			</div>
+		</div>
+		<!--
+        	作者：3223891963@qq.com
+        	时间：2017-04-07
+        	描述：内容区域6
+        -->
+		<div class="content1">
+			<div><span>全栈开发还能做什么</span></div>
+			<div class="xian">
+				<div class="lan"></div>
+			</div>
+			<div>WHAT CAN FULL STACK DEVELOPMENT DO</div>
+			<div class="yuan1"></div>
+			<div class="yuan2"></div>
+			<div class="yuan3"></div>
+			<div class="yuan4"></div>
+		</div>
+		<!--
+        	作者：3223891963@qq.com
+        	时间：2017-04-07
+        	描述：内容区域7
+        -->
+		<div class="content7">
+			<div class="block" data-move-y="2rem" data-move-x="-2rem"></div>
+			<div class="block" data-move-y="2rem" data-move-x="-1rem"></div>
+			<div class="block" data-move-x="-5rem" data-rotate="90deg"></div>
+			<div class="block" data-move-y="2rem" data-move-x="-2rem" data-rotate="45deg"></div>
+			<div class="block" data-move-y="2rem" data-move-x="2rem" data-rotate="-45deg"></div>
+			<div class="block" data-move-x="5rem" data-rotate="-90deg"></div>
+			<div class="block" data-rotate-x="90deg" data-move-z="-5rem" data-move-y="2rem"></div>
+			<div class="block" data-rotate-x="90deg" data-move-z="-5rem" data-move-y="2rem"></div>
+			<div class="block" data-rotate-x="90deg" data-move-z="-5rem" data-move-y="2rem"></div>
+			<div class="block" data-rotate-y="180deg" data-move-z="-2rem" data-move-x="-3rem"></div>
+			<div class="block" data-rotate-x="180deg" data-rotate-y="180deg" data-move-z="-7rem"></div>
+			<div class="block" data-rotate-x="180deg" data-rotate-y="45deg" data-move-z="-5rem"></div>
+			<div class="block" data-rotate-y="180deg" data-move-z="-1rem" data-move-x="5rem"></div>
+			<div data-rotate-y="270deg" data-move-x="-150%"></div>
+			<div data-scale="0.2" data-skew="90deg,90deg"></div>
+		</div>
+		<!--
+        	作者：3223891963@qq.com
+        	时间：2017-04-07
+        	描述：内容区域8
+        -->
+		<div class="content1">
+			<div><span>全栈高薪就业</span></div>
+			<div class="xian">
+				<div class="lan"></div>
+			</div>
+			<div>EMPLOYMENT PROSPECTS</div>
+			<div class="yuan1-1"></div>
+			<div class="yuan2-1"></div>
+			<div class="yuan3-1"></div>
+			<div class="yuan4-1"></div>
+		</div>
+		<!--
+        	作者：3223891963@qq.com
+        	时间：2017-04-07
+        	描述：图表
+        -->
+		<div class="content8">
+			<div class="jyxz">就业薪资比例展示</div>
+			<div></div>
+			<div></div>
+			<div class="block" data-move-x="-5rem"></div>
+			<div>了解更多</div>
+		</div>
+		<!--
+        	作者：3223891963@qq.com
+        	时间：2017-04-07
+        	描述：区域9
+        -->
+		<div class="content1">
+			<div><span>就业学员成果展示</span></div>
+			<div class="xian">
+				<div class="lan"></div>
+			</div>
+			<div>EMPLOYMENT STUDENTS</div>
+			<div class="yuan1"></div>
+			<div class="yuan2"></div>
+			<div class="yuan3"></div>
+			<div class="yuan4"></div>
+		</div>
+		<!--
+        	作者：3223891963@qq.com
+        	时间：2017-04-07
+        	描述：区域10
+        -->
+		<div class="content10">
+			<div>姓名</div>
+			<div>薪资</div>
+			<div>其他待遇</div>
+			<table id="table1" class="block" data-move-x="5rem">
+				<tr>
+					<td>张同学</td>
+					<td>RMB: 15000</td>
+					<td>五险一金+提成+其他福...</td>
+				</tr>
+				<tr>
+					<td>李同学</td>
+					<td>RMB: 18000</td>
+					<td>五险一金+提成+其他福...</td>
+				</tr>
+				<tr>
+					<td>王同学</td>
+					<td>RMB: 17000</td>
+					<td>五险一金+提成+其他福...</td>
+				</tr>
+				<tr>
+					<td>郭同学</td>
+					<td>RMB: 25000</td>
+					<td>五险一金+提成+其他福...</td>
+				</tr>
+				<tr>
+					<td>宋同学</td>
+					<td>RMB: 12000</td>
+					<td>五险一金+提成+其他福...</td>
+				</tr>
+				<tr>
+					<td>廖同学</td>
+					<td>RMB: 10000</td>
+					<td>五险一金+提成+其他福...</td>
+				</tr>
+			</table>
+			<div class="ljgd">了解更多</div>
+		</div>
+		<!--
+        	作者：3223891963@qq.com
+        	时间：2017-04-07
+        	描述：内容区域11
+        -->
+		<div class="content1">
+			<div><span>VIP定制实训课程</span></div>
+			<div class="xian">
+				<div class="lan"></div>
+			</div>
+			<div>VIP CUSTOMIZED TRANING COURSES</div>
+			<div class="yuan1-1"></div>
+			<div class="yuan2-1"></div>
+			<div class="yuan3-1"></div>
+			<div class="yuan4-1"></div>
+		</div>
+		<!--
+        	作者：3223891963@qq.com
+        	时间：2017-04-07
+        	描述：内容区域12
+        -->
+		<div class="content11">
+			<div class="content11-1 block" data-move-x="-5rem">
+				<div class="left-1">
+						<div class="img"><img src="img/orange.png"></div>
+				</div>
+				<div class="right-1">
+					<div>美术描述</div>
+					<div>掌握图像和界面设计的基本法则，结合PhotoShop，Illustator，进行各种商业网站UI界面的设计实践</div>
+				</div>
+			</div>
+			<div class="content11-1 block" data-move-x="-5rem">
+				<div class="left-1">
+						<div class="img1"><img src="img/red.png"></div>
+				</div>
+				<div class="right-2">
+					<div>软件与界面设计</div>
+					<div>掌握各种平台的界面设计规范，进行PC端、pad端、移动端、响应式界面设计实战。</div>
+				</div>
+			</div>
+			<div class="content11-1 block" data-move-x="-5rem">
+				<div class="left-1">
+						<div class="img2"><img src="img/green.png"></div>
+				</div>
+				<div class="right-3">
+					<div>WEB前端开发</div>
+					<div>掌握PC端、移动端、响应式页面重构所需技能及规范，进行商城页面、响应式网站开发实战，使用Javascript实现PC、移动端交互效果。</div>
+				</div>
+			</div>
+			<div class="content11-1 block" data-move-x="-5rem">
+				<div class="left-1">
+						<div class="img3"><img src="img/blue.png"></div>
+				</div>
+				<div class="right-4">
+					<div>WEB全端开发</div>
+					<div>从PC端到移动端页面重构技巧、开发响应式框架、开发移动端事件库、开发jQuery插件、游戏开发、基于微信平台开发、开发混合APP。</div>
+				</div>
+			</div>
+			<div class="content11-1 block" data-move-x="-5rem">
+				<div class="left-1">
+						<div class="img4"><img src="img/yellow.png"></div>
+				</div>
+				<div class="right-5">
+					<div>WEB全栈开发</div>
+					<div>使用php、mysql开发MVC框架、使用nodejs、mongodb开发前端自动化构建工具、Web应用开发框架、博客系统、爬虫系统、聊天室Angualrjs实战、React组件化开发实战。</div>
+				</div>
+			</div>
+			<div class="content11-1 block" data-move-x="-5rem">
+				<div class="left-1">
+						<div class="img5"><img src="img/pursle.png"></div>
+				</div>
+				<div class="right-6">
+					<div>综合项目评审和就业服务</div>
+					<div>通过综合项目评审，掌握面试技巧，训练有素的作品专业表达，拥有充分的专业自信。与就业服务部沟通进行就业城市选定，就业常见问题的解决，开启就业服务阶段。</div>
+				</div>
+			</div>
+		</div>
+		<!--
+        	作者：3223891963@qq.com
+        	时间：2017-04-07
+        	描述：区域11
+        -->
+		<div class="content1">
+			<div><span>就业学员成果展示</span></div>
+			<div class="xian">
+				<div class="lan"></div>
+			</div>
+			<div>EMPLOYMENT STUDENTS</div>
+			<div class="yuan1"></div>
+			<div class="yuan2"></div>
+			<div class="yuan3"></div>
+			<div class="yuan4"></div>
+		</div>
+		<!--
+        	作者：3223891963@qq.com
+        	时间：2017-04-07
+        	描述：区域12
+        -->
+        <div class="xz"><img src="img/qzyyk.png"></div>
+        <!--
+        	作者：3223891963@qq.com
+        	时间：2017-04-08
+        	描述：区域13
+        -->
+        <div class="input-xia">
+        	<div>
+        		<span>*</span>
+        		<span>姓名</span>
+        		<span><input type="text" class="sx" placeholder="昵称"></span>
+        	</div>
+        	<div>
+        		<span>*</span>
+        		<span>电话</span>
+        		<span><input type="number" class="sx" placeholder="请输入11位电话号码"></span>
+        	</div>
+        	<div>
+        		<span>*</span>
+        		<span>QQ</span>
+        		<span><input type="number" class="sx" placeholder="QQ"></span>
+        	</div>
+        	<div>
+        		<span>&nbsp;</span>
+        		<span>课程</span>
+        		<span>&nbsp;<input type="text" class="sx" placeholder="全栈课程"></span>
+        	</div>
+        	<div class="ljgd">提交</div>
+        </div>
+        <!--
+        	作者：3223891963@qq.com
+        	时间：2017-04-08
+        	描述：区域14
+        -->
+        <div class="wenzi">
+        	<p>Copyright © 2013-2017 版权所有 优逸客科技有限公司</p>
+        	<p>联系电话：400-969-7660 晋ICP备13006051号</p>
+        </div>
+        <!--
+        	作者：3223891963@qq.com
+        	时间：2017-04-08
+        	描述：foot
+        -->
+        <footer>
+        	<div class="foot">
+			<div class="foot-left"><img src="img/foot1.png"><span class="span-text1">0元试学</span></div>
+			<div class="foot-middle"></div>
+			<div class="foot-right"><img src="img/foot3.png"><span class="span-text3">在线沟通</span></div>
+		</div>
+		<div class="foot-middle2"><img src="img/foot2.png"><span class="span-text2">免费拨打</span></div>
+        </footer>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.smoove.js"></script>
+		<script type="text/javascript">
+			$('.block').smoove({
+				offset: '40%'
+			});
+		</script>
+		<script type="text/javascript">
+			function header(obj, type, fn) {
+				if(obj.attachEvent) {
+					obj.attachEvent('on' + type, function() {
+						fn.call(obj);
+					})
+				} else {
+					obj.addEventListener(type, fn, false);
+				}
+			}
+			header(window, 'scroll', function() {
+
+				var tab = document.documentElement.scrollTop || document.body.scrollTop;
+				var tdyfgvvsd = document.getElementById("header");
+				if(tab >= 43) {
+					tdyfgvvsd.style.display = "inline";
+				} else {
+					tdyfgvvsd.style.display = "none";
+				}
+
+			});
+
+			function header0(obj, type, fn) {
+				if(obj.attachEvent) {
+					obj.attachEvent('on' + type, function() {
+						fn.call(obj);
+					})
+				} else {
+					obj.addEventListener(type, fn, false);
+				}
+			}
+			header(window, 'scroll', function() {
+
+				var tab = document.documentElement.scrollTop || document.body.scrollTop;
+				var tdyfgvvsd = document.getElementById("header0");
+				if(tab <= 43) {
+					tdyfgvvsd.style.display = "inline";
+				} else {
+					tdyfgvvsd.style.display = "none";
+				}
+
+			});
+		</script>
+	</body>
+
+</html>

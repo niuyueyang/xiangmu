@@ -1,0 +1,97 @@
+
+<html>
+<head>
+<style>
+body{margin:0px;}
+ul{list-style:none; border:0; padding:0px; margin:0px;}
+li{list-style:none; float:left; border:0; padding:0px; margin:0px;}
+img{border:0px;  padding:0px; margin:0px;}
+</style>
+</head>
+<body>
+<center><div id="div1" style="overflow:hidden; cursor:hand; margin-top:50px;" onmouseover="stop()" onmouseout="ss()">
+           <ul id="img" style="clear:both;"><!--放图片的容器，此容器在div1里滚动-->
+        <!--以下是要滚动的内容-->
+              <li><img id="img0" src="http://www.alixixi.com/images/index180.gif" width="100" height="100" style="display:block;" /></li>
+     <li><img id="img1" src="http://www.alixixi.com/images/index180.gif" width="100" height="100" style="display:block;" /></li>
+     <li><img id="img2" src="http://www.alixixi.com/images/index180.gif" width="100" height="100" style="display:block;" /></li>
+     <li><img id="img3" src="http://www.alixixi.com/images/index180.gif" width="100" height="100" style="display:block;" /></li>
+        </ul>     
+</div>
+</center>
+<script language="javascript">
+var w,h,id,speed,Html
+w=400;//-------滚动容器的宽度--------//
+h=100;//-------滚动容器的高度--------//
+id="div1";//-------滚动容器的id--------//
+direction="left";//-------滚动方向有四个值left，right，up，down，自己试试--------//
+speed="100";//-------滚动速度100相当于1秒，越小越快--------//
+imgDiv="img";//-------放图片的容器id--------//
+HtmlL=document.getElementById(imgDiv).innerHTML;
+HtmlT=document.getElementById(id).innerHTML;
+switch (direction)
+{
+case "left":
+     document.getElementById(imgDiv).innerHTML=HtmlL+HtmlL;
+  break;
+case "right":
+     document.getElementById(imgDiv).innerHTML=HtmlL+HtmlL;
+  break;
+case "up":
+     document.getElementById(id).innerHTML=HtmlT+HtmlT;
+  break;
+case "down":
+     document.getElementById(id).innerHTML=HtmlT+HtmlT;
+  break;
+}
+function ss(){
+document.getElementById(id).style.width=w;
+document.getElementById(id).style.height=h;
+document.getElementById(imgDiv).style.width=w*2;
+document.getElementById(imgDiv).style.height=h;
+var ele
+ele=document.getElementById("div1");
+switch (direction)
+{
+case "left":
+ele.scrollLeft=ele.scrollLeft+5;
+if (ele.scrollLeft>=w)
+{
+ele.scrollLeft=0;
+}
+break;
+case "right":
+ele.scrollLeft=ele.scrollLeft-5;
+if (ele.scrollLeft<=0)
+{
+ele.scrollLeft=w;
+}
+break;
+case "up":
+ele.scrollTop=ele.scrollTop+5;
+if (ele.scrollTop>=h)
+{
+ele.scrollTop=0;
+}
+break;
+case "down":
+ele.scrollTop=ele.scrollTop-5;
+if (ele.scrollTop<=0)
+{
+ele.scrollTop=h;
+}
+break;
+}
+t=setTimeout("ss()",speed);
+}
+function stop(){
+document.getElementById("div1").scrollLeft=document.getElementById("div1").scrollLeft;
+document.getElementById("div1").scrollTop=document.getElementById("div1").scrollTop;
+     clearTimeout(t);
+}
+setTimeout("ss()",100);
+</script>
+</body>
+</html>
+
+
